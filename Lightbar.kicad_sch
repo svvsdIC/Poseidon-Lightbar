@@ -247,6 +247,176 @@
 				)
 			)
 		)
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Lightbar-eagle-import:C-USC1210"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2364,6 +2534,196 @@
 				)
 			)
 		)
+		(symbol "Transistor_BJT:2N2219"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N2219"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-39-3"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "800mA Ic, 50V Vce, NPN Transistor, TO-39"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?39*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N2219_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N2219_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 82.55 156.21)
@@ -2402,6 +2762,12 @@
 		(uuid "2e5e6f36-b447-4dd7-a137-4b32f8d1aafd")
 	)
 	(junction
+		(at 100.33 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30635b80-46ef-4841-be09-1fcd85160459")
+	)
+	(junction
 		(at 190.5 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2426,10 +2792,10 @@
 		(uuid "72b9ed22-02a0-4435-882f-13e15511d38a")
 	)
 	(junction
-		(at 82.55 66.04)
+		(at 100.33 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7cb58d89-2028-414e-81be-bcffbb70f5c7")
+		(uuid "73fa201a-8e86-435d-b352-ed8376deacb8")
 	)
 	(junction
 		(at 100.33 48.26)
@@ -2450,12 +2816,6 @@
 		(uuid "89610652-e822-4bc9-9763-ca89bb4f3133")
 	)
 	(junction
-		(at 109.22 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9aa90303-a299-4f0f-b944-16fe340a734b")
-	)
-	(junction
 		(at 185.42 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2466,18 +2826,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab4057c5-2dba-4026-8ee3-5f88e8cbca62")
-	)
-	(junction
-		(at 96.52 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abe0e742-ac14-496b-b62d-63ebcf877680")
-	)
-	(junction
-		(at 92.71 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdb9403e-e65d-47d2-b1fd-fe8f5137709e")
 	)
 	(junction
 		(at 198.12 96.52)
@@ -2511,6 +2859,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 132.08) (xy 92.71 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0240983d-0ea9-4329-a054-ab311888802f")
+	)
+	(wire
+		(pts
 			(xy 185.42 81.28) (xy 185.42 78.74)
 		)
 		(stroke
@@ -2541,7 +2899,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 50.8) (xy 96.52 50.8)
+			(xy 80.01 50.8) (xy 116.84 50.8)
 		)
 		(stroke
 			(width 0.1524)
@@ -2558,6 +2916,16 @@
 			(type solid)
 		)
 		(uuid "0e34b5a9-7e6d-4e18-ad06-b9c22c17686f")
+	)
+	(wire
+		(pts
+			(xy 82.55 139.7) (xy 100.33 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e65d8ac-cfc2-4cb8-8a23-02158b3c3ee4")
 	)
 	(wire
 		(pts
@@ -2591,23 +2959,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 50.8) (xy 96.52 50.8)
+			(xy 82.55 154.94) (xy 82.55 156.21)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "1f381520-cc71-4dee-a536-68e82e12e8af")
+		(uuid "1f710b6b-2d4a-467c-a23b-67625ba583a0")
 	)
 	(wire
 		(pts
-			(xy 92.71 53.34) (xy 109.22 53.34)
+			(xy 100.33 139.7) (xy 107.95 139.7)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "22f81a1b-a943-4f46-a2cd-5943ad14b960")
+		(uuid "22322e8f-ba78-42b7-9f65-50171dbcbe63")
 	)
 	(wire
 		(pts
@@ -2621,17 +2989,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 132.08) (xy 109.22 139.7)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "24191ae1-7452-4056-bbfd-6e3795288089")
-	)
-	(wire
-		(pts
-			(xy 82.55 55.88) (xy 82.55 66.04)
+			(xy 82.55 55.88) (xy 82.55 68.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -2741,6 +3099,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 127) (xy 107.95 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ea73ac-70e9-4e60-8ea7-6e1bce891adc")
+	)
+	(wire
+		(pts
 			(xy 185.42 53.34) (xy 144.78 53.34)
 		)
 		(stroke
@@ -2791,7 +3159,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 156.21) (xy 109.22 156.21)
+			(xy 82.55 156.21) (xy 107.95 156.21)
 		)
 		(stroke
 			(width 0.1524)
@@ -2808,16 +3176,6 @@
 			(type solid)
 		)
 		(uuid "4388925a-333f-41f6-963a-5e65e678e737")
-	)
-	(wire
-		(pts
-			(xy 96.52 50.8) (xy 96.52 129.54)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "43e416e5-0e0a-41c4-8a71-22e681f9f9d3")
 	)
 	(wire
 		(pts
@@ -2838,16 +3196,6 @@
 			(type solid)
 		)
 		(uuid "4be52eea-abba-4847-8cc3-57a8cca329e0")
-	)
-	(wire
-		(pts
-			(xy 109.22 132.08) (xy 92.71 132.08)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "52f4e9b8-efcc-47c7-9d79-9c60b9edab33")
 	)
 	(wire
 		(pts
@@ -2931,17 +3279,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 129.54) (xy 96.52 129.54)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "642f42de-06a2-47f5-ae8b-430739171259")
-	)
-	(wire
-		(pts
-			(xy 109.22 147.32) (xy 109.22 156.21)
+			(xy 107.95 154.94) (xy 107.95 156.21)
 		)
 		(stroke
 			(width 0.1524)
@@ -2991,16 +3329,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 66.04) (xy 109.22 66.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "70a2f23b-4eec-4e2d-9d3b-953593181933")
-	)
-	(wire
-		(pts
 			(xy 177.8 96.52) (xy 198.12 96.52)
 		)
 		(stroke
@@ -3008,16 +3336,6 @@
 			(type solid)
 		)
 		(uuid "748017ed-fcbf-43c3-b6cd-513c8e8c4de9")
-	)
-	(wire
-		(pts
-			(xy 109.22 53.34) (xy 109.22 55.88)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7516f6b6-d395-483b-915b-354a73db5844")
 	)
 	(wire
 		(pts
@@ -3041,7 +3359,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 127) (xy 100.33 127)
+			(xy 100.33 127) (xy 144.78 127)
 		)
 		(stroke
 			(width 0.1524)
@@ -3061,7 +3379,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 53.34) (xy 92.71 53.34)
+			(xy 80.01 53.34) (xy 90.17 53.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -3078,16 +3396,6 @@
 			(type solid)
 		)
 		(uuid "8593de49-4c22-4d68-80b4-cde63b0a6b37")
-	)
-	(wire
-		(pts
-			(xy 92.71 53.34) (xy 92.71 132.08)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "87177a28-ee5f-484a-a8c8-00f3fe12a2db")
 	)
 	(wire
 		(pts
@@ -3148,16 +3456,6 @@
 			(type solid)
 		)
 		(uuid "9a57f5e3-d5b4-4a33-a3c1-841cca1c324a")
-	)
-	(wire
-		(pts
-			(xy 82.55 66.04) (xy 82.55 156.21)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a38924e5-c7a5-4841-950f-0611adbc542a")
 	)
 	(wire
 		(pts
@@ -3271,6 +3569,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 53.34) (xy 90.17 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c5bad5a9-4e20-4df7-87fd-ceb72987e8e2")
+	)
+	(wire
+		(pts
 			(xy 144.78 78.74) (xy 144.78 53.34)
 		)
 		(stroke
@@ -3278,16 +3586,6 @@
 			(type solid)
 		)
 		(uuid "c710de03-91fa-4645-aed2-d49ef6c9b368")
-	)
-	(wire
-		(pts
-			(xy 109.22 63.5) (xy 109.22 66.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c81b22a2-5898-4dc1-acb7-d1c1022e3f28")
 	)
 	(wire
 		(pts
@@ -3321,13 +3619,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 129.54) (xy 116.84 165.1)
+			(xy 100.33 137.16) (xy 100.33 139.7)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "d9b09a2a-28c7-43a5-8695-6d28515b29ef")
+		(uuid "d50aca19-6f76-49e9-9c52-1069ad568d2a")
 	)
 	(wire
 		(pts
@@ -3378,16 +3676,6 @@
 			(type solid)
 		)
 		(uuid "ea830923-0417-498a-9a9a-188d17a9553d")
-	)
-	(wire
-		(pts
-			(xy 116.84 165.1) (xy 147.32 165.1)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f2e5b956-68a3-499e-8681-9121156eb9b5")
 	)
 	(wire
 		(pts
@@ -3633,6 +3921,75 @@
 			(project ""
 				(path "/3d56ec0b-4ec7-4992-8b20-ccf8940f9346"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lightbar-eagle-import:TLLG4400")
+		(at 82.55 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c9215f6-529a-4c8a-829f-7d6098df583c")
+		(property "Reference" "LASER2"
+			(at 86.106 154.432 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TLLG4400"
+			(at 88.265 154.432 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Lightbar:LED3MM"
+			(at 82.55 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "af829886-98ed-4ed4-87fa-8bc1921f9a4a")
+		)
+		(pin "K"
+			(uuid "05f2f5b5-ad31-42a2-bae4-99d1122ce2e8")
+		)
+		(instances
+			(project "Lightbar"
+				(path "/3d56ec0b-4ec7-4992-8b20-ccf8940f9346"
+					(reference "LASER2")
 					(unit 1)
 				)
 			)
@@ -3969,6 +4326,82 @@
 			(project ""
 				(path "/3d56ec0b-4ec7-4992-8b20-ccf8940f9346"
 					(reference "#FRAME1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N2219")
+		(at 97.79 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b85e93b-f1c8-4e5b-ad5a-9da1b0dfb337")
+		(property "Reference" "Q1"
+			(at 102.87 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N2219"
+			(at 102.87 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SC-59_Handsoldering"
+			(at 102.87 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF"
+			(at 97.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mA Ic, 50V Vce, NPN Transistor, TO-39"
+			(at 97.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "07e60344-4b6e-4771-be97-d06e072ef258")
+		)
+		(pin "2"
+			(uuid "f7474ce3-e8fb-45b5-9246-ba0370164a2a")
+		)
+		(pin "1"
+			(uuid "4f548a6f-2a0f-4cfb-a436-373d48a64b9d")
+		)
+		(instances
+			(project ""
+				(path "/3d56ec0b-4ec7-4992-8b20-ccf8940f9346"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -4640,34 +5073,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Lightbar-eagle-import:TLLG4400")
-		(at 109.22 58.42 0)
+		(lib_id "Device:R_US")
+		(at 107.95 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a11f9f14-26dd-46a0-b2a9-ef0ce54bffd2")
-		(property "Reference" "LASER2"
-			(at 112.776 62.992 90)
+		(fields_autoplaced yes)
+		(uuid "a3074f03-6136-433c-8155-15ccbec72eb0")
+		(property "Reference" "R3"
+			(at 110.49 142.2399 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Value" "TLLG4400"
-			(at 114.935 62.992 90)
+		(property "Value" "R_US"
+			(at 110.49 144.7799 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Lightbar:LED3MM"
-			(at 109.22 58.42 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 108.966 143.764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,8 +5109,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 109.22 58.42 0)
+		(property "Datasheet" "~"
+			(at 107.95 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,8 +5118,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 109.22 58.42 0)
+		(property "Description" "Resistor, US symbol"
+			(at 107.95 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4693,16 +5127,16 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
-			(uuid "e595de69-e9aa-45b5-89b7-34035e7cfe80")
+		(pin "1"
+			(uuid "3305cc72-788e-4772-995f-e4fd382f94fc")
 		)
-		(pin "K"
-			(uuid "1c09aa1e-f3a6-4b6f-b36a-f504fd3f52e0")
+		(pin "2"
+			(uuid "5b2f22e8-8c48-4723-a45e-07a52c40bd9a")
 		)
 		(instances
 			(project ""
 				(path "/3d56ec0b-4ec7-4992-8b20-ccf8940f9346"
-					(reference "LASER2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4775,8 +5209,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 82.55 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8458a63-82f3-40fe-b772-9246aeaaf549")
+		(property "Reference" "R4"
+			(at 85.09 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 85.09 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 83.566 143.764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 82.55 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a928de1f-e694-4954-8cf8-dab087bea9a8")
+		)
+		(pin "2"
+			(uuid "1474fada-0f25-47a5-b611-fbce482cbd00")
+		)
+		(instances
+			(project "Lightbar"
+				(path "/3d56ec0b-4ec7-4992-8b20-ccf8940f9346"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Lightbar-eagle-import:GND")
-		(at 109.22 68.58 0)
+		(at 82.55 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4784,7 +5288,7 @@
 		(dnp no)
 		(uuid "b29c0778-b6c3-4959-81b7-c84d2b8658a7")
 		(property "Reference" "#GND06"
-			(at 109.22 68.58 0)
+			(at 82.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4793,7 +5297,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 71.12 0)
+			(at 80.01 73.66 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4802,7 +5306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 68.58 0)
+			(at 82.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,7 +5315,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 68.58 0)
+			(at 82.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,7 +5324,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 68.58 0)
+			(at 82.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +5346,7 @@
 	)
 	(symbol
 		(lib_id "Lightbar-eagle-import:TLLG4400")
-		(at 109.22 142.24 0)
+		(at 107.95 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4850,7 +5354,7 @@
 		(dnp no)
 		(uuid "b60bd764-34cc-4cdb-911a-38ba0611d379")
 		(property "Reference" "LASER1"
-			(at 112.776 146.812 90)
+			(at 111.506 154.432 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4859,7 +5363,7 @@
 			)
 		)
 		(property "Value" "TLLG4400"
-			(at 114.935 146.812 90)
+			(at 113.665 154.432 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4868,7 +5372,7 @@
 			)
 		)
 		(property "Footprint" "Lightbar:LED3MM"
-			(at 109.22 142.24 0)
+			(at 107.95 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4877,7 +5381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 142.24 0)
+			(at 107.95 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +5390,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 142.24 0)
+			(at 107.95 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
