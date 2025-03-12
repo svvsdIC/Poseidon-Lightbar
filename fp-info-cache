@@ -1,4 +1,4 @@
-24198188865568060
+24187578797705240
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6607,13 +6607,6 @@ board-to-board
 0
 30
 30
-Connector
-RFM0505S
-RFM Series
-Power Supply
-0
-4
-4
 Connector
 SpringContact_Harwin_S1941-46R
 7.25mm SMT Multi-directional Spring Contact (T+R), https://cdn.harwin.com/pdfs/S1941R.pdf
