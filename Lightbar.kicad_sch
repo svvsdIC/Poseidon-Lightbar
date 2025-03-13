@@ -4359,7 +4359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SC-59_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering"
 			(at 102.87 133.985 0)
 			(effects
 				(font
